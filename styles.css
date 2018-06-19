@@ -1,0 +1,260 @@
+body {
+    background-color: white;
+    width: 100vw;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    zoom: 0;
+}
+
+.Header {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+table td { 
+    padding: 5px;
+}
+.Header img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+strong {
+    font-style: bold;
+}
+.RedBar {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: red;
+}
+.RedBar #right {
+    float: right;
+    margin-right: 20px;
+}
+.RedBar #left {
+    float: left;
+    margin-left: 20px;
+}
+
+.RedBar a {
+    color: white;
+}
+strong {
+    font-family: Avenir Black;
+}
+span img {
+    width: 70px;
+    height: auto;
+}
+span {
+    display: block;
+}
+.Center {
+    margin-top: 100px;
+    font-family: Avenir Medium;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.Right {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+.Header a {
+    color: #314555;
+}
+
+.Content img {
+    margin: 0 auto;
+    display: block;
+    max-width: 250px;
+    height: auto;
+}
+.Main {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1800px;
+    overflow: auto;
+}
+.one-third {
+    width: 100%;
+    height: 100%;
+}
+
+.one-third img {
+    width:80%;
+    height: auto;
+}
+
+.Box {
+    margin-top: 100px;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    border-radius: 15px;
+    color: black;
+    padding: 25px;
+    overflow: auto;
+}
+td {
+    font-weight: bold;
+}
+#left-half {
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+}
+#right-half {
+    margin-top: 30px;
+    width: 50%;
+    float: right;
+}
+.Box h2 {
+    text-align: justify;
+}
+.Box h1 {
+    font-family: 'Anton', sans-serif;
+}
+.Box table {
+    display: block;
+    margin: 0 auto;
+}
+.TrippleIcon {
+    height: 140px;
+    overflow: auto;
+}
+.TrippleIcon div {
+    width: 33.3%;
+    float: left;
+}
+.TrippleIcon img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 120px;
+    height: auto;
+}
+
+.Btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    background: #379AD6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.Btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.ButtonContainer {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.Footer {
+    height: 150px;
+    width: 100%;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center
+}
+.Footer h2 {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1800px;
+}
+.Footer h3 {
+    text-align: center;
+    width: 100%;
+    margin-top:50px;
+}
+img {
+    transition: 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+}
+
+#Card-Container {
+    width: 100%;
+    overflow: auto;
+}
+.Card {
+    box-shadow: 2px 2px 1px 1px rgba(125, 125, 125, 0.4);
+    float: left;
+    margin: 5px;
+    width: 32%;
+    height: 375px;
+}
+.Card h1 {
+    font-size: 26px;
+}
+.Card h1, .Card h3 {
+    width: 90%;
+    margin-left: 5%;
+}
+.BlueBar {
+    width: 100%;
+    height: 8px;
+    background-color: #3cb0fd;
+}
+.cardImg {
+    width: 100%;
+    height: 175px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1000px) {
+    .one-third {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .ButtonContainer {
+        margin-top: 50px;
+    }
+    .Footer {
+        margin-top: 25px;
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .Card {
+        width: 47%;
+        height: 400px;
+    }
+    
+}
+@media only screen and (min-width: 561px) {
+    #github {
+        background: url('Images/CardImages/GitHub.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 560px) {
+    #github {
+        background: url('Images/CardImages/OnlyGithub.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+}
+
