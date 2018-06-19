@@ -1,10 +1,9 @@
 body {
-    background-color: white;
+    position: absolute;
     width: 100vw;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    zoom: 0;
 }
 
 .Header {
@@ -19,8 +18,8 @@ table td {
     padding: 5px;
 }
 .Header img {
-    width: 40%;
-    height: auto;
+    height: 90px;
+    width: auto;
     display: block;
     margin: 0 auto;
 }
@@ -109,12 +108,12 @@ span {
 td {
     font-weight: bold;
 }
-#left-half {
+.left-half {
     margin-top: 30px;
     width: 50%;
     float: left;
 }
-#right-half {
+.right-half {
     margin-top: 30px;
     width: 50%;
     float: right;
@@ -236,8 +235,8 @@ img {
 
 @media only screen and (max-width: 940px) {
     .Card {
-        width: 47%;
-        height: 400px;
+        width: 46%;
+        height: 430px;
     }
     
 }
