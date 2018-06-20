@@ -238,6 +238,22 @@ img {
         width: 44%;
         height: 430px;
     }
+    .left-half {
+        width: 100%;
+    }
+    .right-half {
+        width: 100%;
+    }
+    body {
+        text-align: left;
+    }
+    .Header img {
+        height: 50px;
+        width: auto;
+    }
+    .Header {
+        height: 75px;
+    }
     
 }
 @media only screen and (min-width: 561px) {
