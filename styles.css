@@ -4,6 +4,7 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    overflow-x: hidden;
 }
 
 .Header {
@@ -72,7 +73,9 @@ span {
 .Header a {
     color: #314555;
 }
-
+.Content {
+    width: 100vw;
+}
 .Content img {
     margin: 0 auto;
     display: block;
@@ -109,18 +112,18 @@ td {
     font-weight: bold;
 }
 .left-half {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 50%;
     float: left;
 }
 .right-half {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 50%;
     float: right;
 }
-.Box h2 {
+/* .Box h2 {
     text-align: justify;
-}
+} */
 .Box h1 {
     font-family: 'Anton', sans-serif;
 }
@@ -222,7 +225,7 @@ img {
 @media only screen and (max-width: 1000px) {
     .one-third {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .ButtonContainer {
         margin-top: 50px;
@@ -236,13 +239,16 @@ img {
 @media only screen and (max-width: 940px) {
     .Card {
         width: 44%;
-        height: 430px;
+        height: 450px;
     }
     .left-half {
         width: 100%;
     }
     .right-half {
         width: 100%;
+    }
+    .mobile-hidden {
+        display: none;
     }
     body {
         text-align: left;
@@ -270,6 +276,9 @@ img {
         background-size: cover;
         background-position: 50% 50%;
         background-repeat: no-repeat;
+    }
+    #rocketImg {
+        background-position: left;
     }
 }
 
